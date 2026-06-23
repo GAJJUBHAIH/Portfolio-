@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  @apply bg-ink text-white font-sans antialiased;
+  margin: 0;
+}
+
+html:not(.dark) body {
+  @apply bg-white text-ink;
+}
+
+.glass {
+  @apply backdrop-blur-xl border border-white/10;
+  background: rgba(255, 255, 255, 0.04);
+}
+html:not(.dark) .glass {
+  background: rgba(0, 0, 0, 0.03);
+  @apply border-black/10;
+}
+
+@media (pointer: fine) {
+  .custom-cursor-active * { cursor: none !important; }
+}
