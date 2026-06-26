@@ -5,11 +5,12 @@ export const profile = {
   college: 'Lalit Narayan Mishra College of Business Management',
   location: 'Muzaffarpur, Bihar, India',
   // PLACEHOLDER: replace with real links/email
-  email: 'your-email@example.com',
-  github: 'https://github.com/gajjubhai854',
-  linkedin: 'https://linkedin.com/in/PLACEHOLDER',
-  instagram: 'https://instagram.com/PLACEHOLDER',
-  resumeUrl: '/resume.pdf' // PLACEHOLDER: add resume.pdf to /public
+  email: 'gajanandk854@gmail.com',
+  github: 'https://github.com/GAJJUBHAIH',
+  linkedin: 'https://www.linkedin.com/in/gajanand-kumar-b2837b3ab/',
+  instagram: 'https://www.instagram.com/mazstygamer',
+  resumeUrl: '/resume.pdf', // PLACEHOLDER: add resume.pdf to /public
+  avatarUrl: '/profile.jpg'
 };
 
 export const skills = [
