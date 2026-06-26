@@ -8,7 +8,7 @@ export default function Hero() {
         initial={{ scale: 0.8, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         transition={{ duration: 0.8 }}
-        src={profile.avatarUrl}
+        src={`${import.meta.env.BASE_URL}${profile.avatarUrl.replace(/^\//, '')}`}
         alt={profile.name}
         className="mb-8 h-40 w-40 rounded-full border-2 border-electric/40 object-cover animate-float"
       />
